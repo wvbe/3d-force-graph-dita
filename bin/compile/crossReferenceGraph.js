@@ -1,6 +1,11 @@
 const { evaluateXPathToStrings } = require('fontoxpath');
 
-module.exports = async (cache, sitemap) => {
+module.exports = {
+	all: compileCrossReferenceData.bind(undefined, '//*/(@href, @conref, @reference)'),
+	dita: compileCrossReferenceData.bind(undefined, '//*/(@href, @conref)'),
+	fad: compileCrossReferenceData.bind(undefined, '//*/@reference')
+};
+async function compileCrossReferenceData(query, cache, sitemap) {
 	const nodes = (await sitemap.getNodes()).filter(reference =>
 		Boolean(reference.target && !reference.resource)
 	);
@@ -25,12 +30,7 @@ module.exports = async (cache, sitemap) => {
 		data.links.splice(
 			0,
 			0,
-			...evaluateXPathToStrings(
-				`
-				//*/(@href, @conref, @reference)
-			`,
-				doc
-			)
+			...evaluateXPathToStrings(query, doc)
 				.filter(link => link.startsWith('docs'))
 				.map(link => nodeIdsByFilePath[link.split('#')[0]])
 				.filter(Boolean)
@@ -43,4 +43,4 @@ module.exports = async (cache, sitemap) => {
 	}
 
 	return data;
-};
+}

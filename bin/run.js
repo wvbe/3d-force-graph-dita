@@ -14,7 +14,12 @@ const { cache } = createTransformingFileCacheForVersion(
 	[TRANSFORM_RELATIVE_TO_ABSOLUTE_XML_REFERENCES]
 );
 
-const RUNNERS = ['simpleDitamapGraph', 'crossReferenceGraph'];
+const RUNNERS = [
+	'simpleDitamapGraph',
+	['crossReferenceGraphAll', require('./compile/crossReferenceGraph').all],
+	['crossReferenceGraphDita', require('./compile/crossReferenceGraph').dita],
+	['crossReferenceGraphFad', require('./compile/crossReferenceGraph').fad]
+];
 console.log('>>> START <<<');
 console.log(RUNNERS);
 
@@ -23,13 +28,18 @@ console.log(RUNNERS);
 
 	await RUNNERS.reduce(async (last, fileName) => {
 		await last;
-		const filePath = path.join(TARGET_DIR, fileName + '.json');
+		let filePath, callback;
+		if (Array.isArray(fileName)) {
+			filePath = path.join(TARGET_DIR, fileName[0] + '.json');
+			callback = fileName[1];
+		} else {
+			filePath = path.join(TARGET_DIR, fileName + '.json');
+			callback = require('./compile/' + fileName);
+		}
+
 		console.group(filePath);
 
-		const data = Object.assign(
-			{ nodes: [], links: [] },
-			await require('./compile/' + fileName)(cache, sitemap)
-		);
+		const data = Object.assign({ nodes: [], links: [] }, await callback(cache, sitemap));
 		await fs.writeFile(filePath, JSON.stringify(data, null, '\t'));
 		console.log(`${data.nodes.length} nodes, ${data.links.length} links`);
 		console.groupEnd();
