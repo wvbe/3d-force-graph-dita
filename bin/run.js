@@ -15,7 +15,8 @@ const { cache } = createTransformingFileCacheForVersion(
 );
 
 const RUNNERS = [
-	'simpleDitamapGraph',
+	['simpleDitamapGraphNormal', require('./compile/simpleDitamapGraph').normal],
+	['simpleDitamapGraphExpanded', require('./compile/simpleDitamapGraph').expanded],
 	['crossReferenceGraphAll', require('./compile/crossReferenceGraph').all],
 	['crossReferenceGraphDita', require('./compile/crossReferenceGraph').dita],
 	['crossReferenceGraphFad', require('./compile/crossReferenceGraph').fad]

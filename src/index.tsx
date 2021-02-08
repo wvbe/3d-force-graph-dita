@@ -1,3 +1,5 @@
+export { getDitaTableOfContents } from './util/dita-table-of-contents';
+export { getFadTableOfContents } from './util/fad-table-of-contents';
 
 export {
 	createTransformingFileCacheForVersion,

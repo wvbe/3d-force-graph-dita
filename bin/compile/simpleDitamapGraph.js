@@ -1,16 +1,42 @@
-module.exports = async (cache, sitemap) => {
+const { evaluateXPathToBoolean } = require('fontoxpath');
+const { getDitaTableOfContents, getFadTableOfContents } = require('../../dist');
+const fadNsUri = 'http://www.fontoxml.com/ns/api-documentation';
+
+function prefixIds(prefix, nodes) {
+	nodes.forEach(node => {
+		node.id = prefix + node.id;
+		prefixIds(prefix, node.children);
+	});
+	return nodes;
+}
+async function compile(includeToc, cache, sitemap) {
 	const tree = await sitemap.getTree();
 	const ROOT = tree[0];
 	const NODES = [ROOT];
 
-	(function recursiveMap(nods, parent, depth = 0) {
+	await (async function recursiveMap(nods, parent, depth = 0) {
 		parent.depth = depth;
-		nods.filter(nod => !nod.resource).forEach(nod => {
+		const notResourceTopics = nods.filter(nod => !nod.resource);
+
+		for await (const nod of notResourceTopics) {
 			nod.parent = parent.id;
-			recursiveMap(nod.children, nod, depth + 1);
+
+			if (includeToc && nod.target) {
+				const doc = await cache.getDocument(nod.target);
+				const isFad = evaluateXPathToBoolean('namespace-uri(/*) = $fadNsUri', doc, null, {
+					fadNsUri
+				});
+				const toc = prefixIds(
+					nod.id,
+					isFad ? getFadTableOfContents(doc) : getDitaTableOfContents(doc)
+				);
+				nod.children = [...nod.children, ...toc];
+			}
+
+			await recursiveMap(nod.children, nod, depth + 1);
 
 			NODES.push(nod);
-		});
+		}
 	})(ROOT.children, ROOT);
 
 	const nodes = NODES.map(node => ({
@@ -20,8 +46,10 @@ module.exports = async (cache, sitemap) => {
 
 	return {
 		nodes: nodes.map(node => ({
-			...node,
-			val: node.children.length * 2 + 1
+			id: node.id,
+			navtitle: node.navtitle || node.label,
+			val: node.children.length,
+			depth: node.depth
 		})),
 		links: nodes
 			.filter(node => Boolean(node.parent))
@@ -30,4 +58,9 @@ module.exports = async (cache, sitemap) => {
 				target: node.parent
 			}))
 	};
+}
+
+module.exports = {
+	normal: compile.bind(undefined, false),
+	expanded: compile.bind(undefined, true)
 };

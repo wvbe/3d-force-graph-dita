@@ -75,6 +75,7 @@
 	"dependencies": {
 		"3d-force-graph": "^1.67.8",
 		"fontoxpath": "^3.14.2",
-		"slimdom-sax-parser": "^1.4.0"
+		"slimdom-sax-parser": "^1.4.0",
+		"three": "^0.125.2"
 	}
 }
