@@ -58,7 +58,7 @@
 		"@storybook/addon-essentials": "^6.1.15",
 		"@storybook/addon-info": "^5.3.21",
 		"@storybook/addon-links": "^6.1.15",
-		"@storybook/addons": "^6.1.15",
+		"@storybook/addons": "^6.1.17",
 		"@storybook/react": "^6.1.15",
 		"@types/react": "^17.0.0",
 		"@types/react-dom": "^17.0.0",
@@ -74,6 +74,7 @@
 	},
 	"dependencies": {
 		"3d-force-graph": "^1.67.8",
+		"@storybook/theming": "^6.1.17",
 		"fontoxpath": "^3.14.2",
 		"slimdom-sax-parser": "^1.4.0",
 		"three": "^0.125.2"

@@ -22,33 +22,23 @@ describe('getDitaTableOfContents', () => {
 	it('for (nested) topics', () => {
 		const dom = sync(
 			fs.readFileSync(
-				path.resolve(
-					__dirname,
-					'../../test/xml/dita/xpath-3-1-selectors.xml'
-				),
+				path.resolve(__dirname, '../../test/xml/dita/xpath-3-1-selectors.xml'),
 				'utf8'
 			)
 		);
 		expect(
-			getDitaTableOfContents((dom as unknown) as Document).map(
-				stripNodeFromToc
-			)
+			getDitaTableOfContents((dom as unknown) as Document).map(stripNodeFromToc)
 		).toMatchSnapshot();
 	});
 	it('for tasks', () => {
 		const dom = sync(
 			fs.readFileSync(
-				path.resolve(
-					__dirname,
-					'../../test/xml/dita/create-a-popover.xml'
-				),
+				path.resolve(__dirname, '../../test/xml/dita/create-a-popover.xml'),
 				'utf8'
 			)
 		);
 		expect(
-			getDitaTableOfContents((dom as unknown) as Document).map(
-				stripNodeFromToc
-			)
+			getDitaTableOfContents((dom as unknown) as Document).map(stripNodeFromToc)
 		).toMatchSnapshot();
 	});
 });
@@ -57,10 +47,7 @@ describe('getDitaClosestTableOfContentsNode', () => {
 	it('for (nested) topics', () => {
 		const dom = sync(
 			fs.readFileSync(
-				path.resolve(
-					__dirname,
-					'../../test/xml/dita/xpath-3-1-selectors.xml'
-				),
+				path.resolve(__dirname, '../../test/xml/dita/xpath-3-1-selectors.xml'),
 				'utf8'
 			)
 		);
@@ -69,18 +56,13 @@ describe('getDitaClosestTableOfContentsNode', () => {
 			dom
 		);
 		expect(
-			stripNodeFromToc(
-				getDitaClosestTableOfContentsNode(contextNode as Node)
-			)
+			stripNodeFromToc(getDitaClosestTableOfContentsNode(contextNode as Node))
 		).toMatchSnapshot();
 	});
 	it('for tasks', () => {
 		const dom = sync(
 			fs.readFileSync(
-				path.resolve(
-					__dirname,
-					'../../test/xml/dita/create-a-popover.xml'
-				),
+				path.resolve(__dirname, '../../test/xml/dita/create-a-popover.xml'),
 				'utf8'
 			)
 		);
@@ -89,9 +71,7 @@ describe('getDitaClosestTableOfContentsNode', () => {
 			dom
 		);
 		expect(
-			stripNodeFromToc(
-				getDitaClosestTableOfContentsNode(contextNode as Node)
-			)
+			stripNodeFromToc(getDitaClosestTableOfContentsNode(contextNode as Node))
 		).toMatchSnapshot();
 	});
 });

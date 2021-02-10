@@ -1,7 +1,4 @@
-import {
-	evaluateUpdatingExpression,
-	executePendingUpdateList
-} from 'fontoxpath';
+import { evaluateUpdatingExpression, executePendingUpdateList } from 'fontoxpath';
 import slimdom from 'slimdom';
 
 type TransformerFn<T> = (dom: Node, variables: T) => Promise<Node>;

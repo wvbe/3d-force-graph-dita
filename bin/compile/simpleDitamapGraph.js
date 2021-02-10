@@ -47,9 +47,9 @@ async function compile(includeToc, cache, sitemap) {
 	return {
 		nodes: nodes.map(node => ({
 			id: node.id,
-			navtitle: node.navtitle || node.label,
+			label: node.navtitle || node.label,
 			val: node.children.length,
-			depth: node.depth
+			group: node.depth
 		})),
 		links: nodes
 			.filter(node => Boolean(node.parent))

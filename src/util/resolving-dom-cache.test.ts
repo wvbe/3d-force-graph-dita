@@ -5,16 +5,9 @@ import { posix as path } from 'path';
 import { createTransformingFileCacheForVersion } from './resolving-dom-cache';
 
 describe('[createTransformingFileCacheForVersion]', () => {
-	const { cache } = createTransformingFileCacheForVersion((filePath) =>
+	const { cache } = createTransformingFileCacheForVersion(filePath =>
 		fs.readFile(
-			path.resolve(
-				__dirname,
-				'..',
-				'..',
-				'test',
-				'transformation-test',
-				filePath
-			),
+			path.resolve(__dirname, '..', '..', 'test', 'transformation-test', filePath),
 			'utf8'
 		)
 	);
@@ -26,18 +19,13 @@ describe('[createTransformingFileCacheForVersion]', () => {
 
 	it('resolves DITA conrefs', async () => {
 		const dom = await cache.getDocument('subdir/conref-chain-1.xml');
-		expect(evaluateXPathToString('//p', dom).trim()).toBe(
-			'REUSED PARAGRAPH'
-		);
+		expect(evaluateXPathToString('//p', dom).trim()).toBe('REUSED PARAGRAPH');
 	});
 
 	it('resolves FAD conrefs', async () => {
 		const dom = await cache.getDocument('api/Button.xml');
 		expect(
-			evaluateXPathToString(
-				'/*/arguments/*[./name = "icon"]/restrict/*/description',
-				dom
-			)
+			evaluateXPathToString('/*/arguments/*[./name = "icon"]/restrict/*/description', dom)
 		).toMatch(
 			// This text comes from FDS.xml, not Button.xml
 			/The name of the icon displayed in the component./
@@ -66,20 +54,15 @@ describe('[createTransformingFileCacheForVersion]', () => {
 
 		expect(evaluateXPathToString('/*/name', dom)).toBe('One');
 
-		expect(evaluateXPathToString('/*/members[1]/type/name', dom)).toBe(
-			'Two'
-		);
+		expect(evaluateXPathToString('/*/members[1]/type/name', dom)).toBe('Two');
 
 		// First time entering the circular object
-		expect(
-			evaluateXPathToString('/*/members[1]/type/restrict/type/name', dom)
-		).toBe('ReusableTwo');
+		expect(evaluateXPathToString('/*/members[1]/type/restrict/type/name', dom)).toBe(
+			'ReusableTwo'
+		);
 
 		expect(
-			evaluateXPathToString(
-				'/*/members[1]/type/restrict/type/restrict/type/name',
-				dom
-			)
+			evaluateXPathToString('/*/members[1]/type/restrict/type/restrict/type/name', dom)
 		).toBe('ReusableOne');
 
 		// Second time hitting two.xml. The @reference will not be replaced with contents of two.xml,

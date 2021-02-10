@@ -2,1947 +2,2360 @@
 	"nodes": [
 		{
 			"id": "id-03c90d66-8967-4aa4-aeb8-655a4a49ce45",
-			"navtitle": "General",
+			"label": "General",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-2e9221ed-be53-3f09-04c8-726cbc823541",
-			"navtitle": "Editor",
+			"label": "Editor",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-4ccd2321-d0dc-642e-b524-4823f38e9e3a",
-			"navtitle": "Getting started",
+			"label": "Getting started",
+			"group": "dita",
 			"val": 29
 		},
 		{
 			"id": "id-ad28a31d-cd8c-3cf6-0574-ce5a079fe27c",
-			"navtitle": "Basic Guides",
+			"label": "Basic Guides",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-daa1f6e3-9d4a-424e-dab1-16671c3f4670",
-			"navtitle": "Create a schema bundle",
+			"label": "Create a schema bundle",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-1324f843-cd7c-7ec6-164b-803ccd624968",
-			"navtitle": "Create a base editor",
+			"label": "Create a base editor",
+			"group": "dita",
 			"val": 15
 		},
 		{
 			"id": "id-3ef037ef-f23b-74cb-a7cd-9dc495c3cd36",
-			"navtitle": "Configure elements",
+			"label": "Configure elements",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-4b700e07-fa55-540d-171d-b9f840daba67",
-			"navtitle": "CVK flowchart",
+			"label": "CVK flowchart",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-834027d1-bdcd-1d93-18f1-38b5f8ed55e8",
-			"navtitle": "Create a masthead",
+			"label": "Create a masthead",
+			"group": "dita",
 			"val": 12
 		},
 		{
 			"id": "id-4a4bc8f1-4345-b852-dc44-c31f4b39a8ab",
-			"navtitle": "Create operations",
+			"label": "Create operations",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-56d132b4-93b5-a420-277f-7a52680bc0b0",
-			"navtitle": "Configure clipboard behavior",
+			"label": "Configure clipboard behavior",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-ec96a58a-abfe-a946-90f3-ad8cc027f13f",
-			"navtitle": "Create a popover",
+			"label": "Create a popover",
+			"group": "dita",
 			"val": 14
 		},
 		{
 			"id": "id-091fcbbf-e5b0-001b-1a1d-87fdc6f26cc6",
-			"navtitle": "Create a sidebar",
+			"label": "Create a sidebar",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-86ac21fa-4108-ffe4-5c38-3dead8c6eb28",
-			"navtitle": "Create a modal",
+			"label": "Create a modal",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-e84368b6-c903-ee14-1c58-d86f2d4fa113",
-			"navtitle": "Create a custom widget",
+			"label": "Create a custom widget",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-69c46bf0-3e56-1195-175d-d4d43a33540d",
-			"navtitle": "Create a form",
+			"label": "Create a form",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-b6c6248e-d55a-6af7-05ed-92855114a729",
-			"navtitle": "Create the document zoom",
+			"label": "Create the document zoom",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-74177b49-269e-e9e5-26ce-7611e0a60a11",
-			"navtitle": "Configure tables",
+			"label": "Configure tables",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-30ece371-eeb3-7713-97c6-e3245597331a",
-			"navtitle": "Build the editor",
+			"label": "Build the editor",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-41794a4d-14cd-4c8b-c994-791203576317",
-			"navtitle": "Compiling a schema",
-			"val": 5
+			"label": "Compiling a schema",
+			"group": "dita",
+			"val": 6
 		},
 		{
 			"id": "id-3a704c9a-de6e-45f3-ccf9-0d1ad0e9a89e",
-			"navtitle": "Configure a table toolbar",
+			"label": "Configure a table toolbar",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-58e8ad67-3d25-a024-be9e-30527352eaaf",
-			"navtitle": "Configure contextual operations",
+			"label": "Configure contextual operations",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-1c045b65-b79b-28b0-b2ae-cd0f0d9cad68",
-			"navtitle": "Create a DEV-CMS connection",
+			"label": "Create a DEV-CMS connection",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-c0ce6854-a974-46da-e929-71c0c7125606",
-			"navtitle": "Configure special characters",
+			"label": "Configure special characters",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-76196094-114b-a2bb-2708-4c294b7505fd",
-			"navtitle": "Advanced Guides",
+			"label": "Advanced Guides",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-908f1277-adb2-98c9-e553-ee37453156be",
-			"navtitle": "Configure a custom table definition",
+			"label": "Configure a custom table definition",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-12c288da-f5a7-0133-7b45-41b431b6b8cd",
-			"navtitle": "Create a metadata sidebar",
+			"label": "Create a metadata sidebar",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-8210817b-179e-cd70-d3dc-c9818141434f",
-			"navtitle": "Create an image detail modal",
+			"label": "Create an image detail modal",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-36a25243-7af4-7621-4424-abc603e1e254",
-			"navtitle": "Configure hierarchical multi-document management",
+			"label": "Configure hierarchical multi-document management",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-5946844a-76d6-c302-c9c2-3eb35135813a",
-			"navtitle": "Create a custom mutation",
+			"label": "Create a custom mutation",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-8bf89caf-5764-509f-7a1b-fcfa6e72e03d",
-			"navtitle": "Configure reference pipeline",
+			"label": "Configure reference pipeline",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-c99bea2c-adcb-5336-3c7d-77ec725e0c84",
-			"navtitle": "Localize the interface",
+			"label": "Localize the interface",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-b9cc89c3-926f-42e9-6d92-f4b49fc879d3",
-			"navtitle": "Integrate with a CMS",
-			"val": 11
+			"label": "Integrate with a CMS",
+			"group": "dita",
+			"val": 12
 		},
 		{
 			"id": "id-ddb84dfd-9346-b8ad-2010-9445bccee975",
-			"navtitle": "Requirements",
+			"label": "Requirements",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-4b5edf1f-6b09-1f8f-e1a4-8c648c6a4a43",
-			"navtitle": "Getting started",
+			"label": "Getting started",
+			"group": "dita",
 			"val": 12
 		},
 		{
 			"id": "id-0b394c67-baf7-89d8-a0fb-8d553eb8b353",
-			"navtitle": "CMS Concepts",
+			"label": "CMS Concepts",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-1826d0a7-96ef-fad3-36f8-3fdd0bce62e5",
-			"navtitle": "Use cases",
+			"label": "Use cases",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-5ee86bfb-f9e1-382e-85d5-8ec4cd22fefe",
-			"navtitle": "Implementation concerns",
+			"label": "Implementation concerns",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-c6ddd5b9-b495-2b69-0f63-a5b4dde6b969",
-			"navtitle": "Fonto Editor iframe CMS connector",
+			"label": "Fonto Editor iframe CMS connector",
+			"group": "dita",
 			"val": 13
 		},
 		{
 			"id": "id-66971d19-11e3-47a6-0d08-7d94202820e4",
-			"navtitle": "Best practices for CMS integration",
+			"label": "Best practices for CMS integration",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-0aeca457-e05a-0696-cc30-4f917d301990",
-			"navtitle": "Configure drag & drop in the structure view",
+			"label": "Configure drag & drop in the structure view",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-728a3027-6fa1-932f-5724-31a606fc8f50",
-			"navtitle": "Using scope variables",
+			"label": "Using scope variables",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-6296b8fc-f525-df35-a538-a5be12b8815a",
-			"navtitle": "Configuring a SheetFrameHeader",
+			"label": "Configuring a SheetFrameHeader",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-24463bc0-ee34-a83a-537d-cc3ed5599e39",
-			"navtitle": "Configure pasting external images into Fonto",
+			"label": "Configure pasting external images into Fonto",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-55ffa909-1d02-4daa-b43d-9c08b902c98f",
-			"navtitle": "Create a numbering for nodes",
+			"label": "Create a numbering for nodes",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-7164e9df-1578-7355-6708-1ab298418cfc",
-			"navtitle": "Create a mutation hook",
+			"label": "Create a mutation hook",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-ede07047-8416-a7e8-9f56-eed243c7c9ea",
-			"navtitle": "Enable column width for XHTML tables",
+			"label": "Enable column width for XHTML tables",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-dbdb7269-dffb-1a13-258d-eee3010e742d",
-			"navtitle": "Customize the version info popover",
+			"label": "Customize the version info popover",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-d6335a0e-6188-4e0e-bfc3-3498ca86ef8d",
-			"navtitle": "Implementing generated texts for cross-references",
+			"label": "Implementing generated texts for cross-references",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-af0dd54b-a8f2-4a1b-c27b-bb35e988df32",
-			"navtitle": "Configure inclusions",
+			"label": "Configure inclusions",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-dd26aede-32b4-d2e6-975a-ba0925b65441",
-			"navtitle": "Concepts",
+			"label": "Concepts",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-cf49e7cf-946e-368e-235b-0d0db9731e1a",
-			"navtitle": "Schema experiences",
+			"label": "Schema experiences",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-65069483-e200-ff28-df6a-ef1005ad5c02",
-			"navtitle": "Namespaces",
+			"label": "Namespaces",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-74465c44-bfa4-542e-f35b-3f39bf8c9853",
-			"navtitle": "Operations",
+			"label": "Operations",
+			"group": "dita",
 			"val": 15
 		},
 		{
 			"id": "id-456c0138-f4da-20af-5d79-7397d5ecfc31",
-			"navtitle": "XPath",
+			"label": "XPath",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-5bfb4562-6013-42fa-ef01-415b4b2783f2",
-			"navtitle": "XQuery",
+			"label": "XQuery",
+			"group": "dita",
 			"val": 17
 		},
 		{
 			"id": "id-34b86137-a23e-3aa4-a095-a90768d302a4",
-			"navtitle": "Query the document",
+			"label": "Query the document",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-bb16051a-8368-ced4-a73d-daef128faa06",
-			"navtitle": "Selection PIs",
+			"label": "Selection PIs",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-bc6bcbea-ac88-0307-a5ea-700c69a08b3b",
-			"navtitle": "Iframe communication",
+			"label": "Iframe communication",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-6303bbea-7f48-91b2-5cff-74e4896c290f",
-			"navtitle": "Performance",
+			"label": "Performance",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-67ac53a4-bad0-3cba-3102-ce12c888ccf0",
-			"navtitle": "Application structure",
+			"label": "Application structure",
+			"group": "dita",
 			"val": 11
 		},
 		{
 			"id": "id-d358397a-a8e0-7b7a-51f4-88732c976eb4",
-			"navtitle": "Development server",
+			"label": "Development server",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-54eebbb0-20b5-7598-47a5-425b2640ec4e",
-			"navtitle": "Fonto Design System (FDS)",
+			"label": "Fonto Design System (FDS)",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-6ff1433f-b029-23f2-5491-34d054c8bcf5",
-			"navtitle": "FDS Concepts",
+			"label": "FDS Concepts",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-5f4cf399-34a3-b0bc-0dd9-4135d48fef4c",
-			"navtitle": "React best practises",
+			"label": "React best practises",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-5cb17c57-7ce6-82cf-e8f3-5e567d6c02e7",
-			"navtitle": "Fonto Development Tools",
+			"label": "Fonto Development Tools",
+			"group": "dita",
 			"val": 13
 		},
 		{
 			"id": "id-5186617c-c6bb-6f4e-4ca9-0af574e59197",
-			"navtitle": "XPath / XQuery",
+			"label": "XPath / XQuery",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-6e230ad5-4b8d-d192-0b96-f82c9e589ca5",
-			"navtitle": "Learning the language",
+			"label": "Learning the language",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-8075e2eb-7e45-8aad-36ba-d8163743f9e6",
-			"navtitle": "The basics",
+			"label": "The basics",
+			"group": "dita",
 			"val": 8
 		},
 		{
 			"id": "id-3a284284-855e-ecd0-8405-d4844bdfd612",
-			"navtitle": "Filtering sequences",
+			"label": "Filtering sequences",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-aa182a83-b1b5-6589-7b33-2706d425a857",
-			"navtitle": "Selecting nodes",
+			"label": "Selecting nodes",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-97f5e981-cf02-8ec0-bc3f-2c123667db1c",
-			"navtitle": "Literals and variables",
+			"label": "Literals and variables",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-99c4dd24-c6f9-d544-bfe2-9da28852d8e0",
-			"navtitle": "Comparing sequences",
+			"label": "Comparing sequences",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-8ee23bbc-a793-46f3-921f-fc197ebb1093",
-			"navtitle": "Other operators",
+			"label": "Other operators",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-9046e3de-3ee1-cecc-fc9a-0f7489ecbe30",
-			"navtitle": "Examples",
+			"label": "Examples",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-7dc4651b-ae56-9913-b19d-33fb68bf5edf",
-			"navtitle": "Simple examples",
+			"label": "Simple examples",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-5fe02f04-e98c-8546-9c73-4fc0f101cdb8",
-			"navtitle": "Complex examples",
+			"label": "Complex examples",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-5e8243ee-f380-b5f3-2b0e-82045c4999d6",
-			"navtitle": "Fonto specific examples",
+			"label": "Fonto specific examples",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-250a9710-833b-f759-86c4-3397f2621c24",
-			"navtitle": "Clipboard",
+			"label": "Clipboard",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-5f9ea3ed-d118-4ed1-cd7a-7b5deedbf93a",
-			"navtitle": "Clipboard - Plain text",
+			"label": "Clipboard - Plain text",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-1d0b7d20-4aa2-8d7c-45b1-4ae647895a78",
-			"navtitle": "Mutation hooks",
+			"label": "Mutation hooks",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-b54a4d9f-e896-71dd-8663-4210580dbccb",
-			"navtitle": "Font Awesome",
+			"label": "Font Awesome",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-5a5ea051-30c4-591d-7506-99991541f77b",
-			"navtitle": "Themes",
+			"label": "Themes",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-ccf084c1-574c-61a6-761e-7e3607806acf",
-			"navtitle": "Embedded mode",
+			"label": "Embedded mode",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-04fbdf7f-6825-bef5-1daf-25023b430228",
-			"navtitle": "Whitespace Handling",
+			"label": "Whitespace Handling",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-bc43d4b6-913f-42f2-9840-aed9fd99df95",
-			"navtitle": "Popovers",
+			"label": "Popovers",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-f004b66c-7b00-4715-d125-83ecaa020f7d",
-			"navtitle": "Remote document states",
+			"label": "Remote document states",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-1ec63cc4-d3a7-8a05-4c88-a18f81af0d77",
-			"navtitle": "Add-ons",
+			"label": "Add-ons",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-a75b4fec-ab75-131f-d37e-a59c718ed957",
-			"navtitle": "APIs & Reference",
+			"label": "APIs & Reference",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d92f2978-9001-05a0-aa36-d5214254a3f0",
-			"navtitle": "Editor API",
+			"label": "Editor API",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-45a7911e-f9a9-423e-6cfe-e8fb6856c1a3",
-			"navtitle": "CMS connectors API",
+			"label": "CMS connectors API",
+			"group": "dita",
 			"val": 10
 		},
 		{
 			"id": "id-eb2f135d-7857-4804-9b55-524ff896f100",
-			"navtitle": "Invocation of Fonto Editor",
+			"label": "Invocation of Fonto Editor",
+			"group": "dita",
 			"val": 14
 		},
 		{
 			"id": "id-69f5c4c9-feb5-bcca-25d4-0def5beae3eb",
-			"navtitle": "Document saving, loading, locking, and state management",
-			"val": 15
+			"label": "Document saving, loading, locking, and state management",
+			"group": "dita",
+			"val": 16
 		},
 		{
 			"id": "id-c60918ff-05a7-a5ad-c293-114f697afeb3",
-			"navtitle": "Browse for documents and assets",
+			"label": "Browse for documents and assets",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-d8251fc1-327a-f4fe-4ebd-7b5e9f87fded",
-			"navtitle": "Asset preview and upload",
+			"label": "Asset preview and upload",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-436da7c4-7e22-6051-d49d-36073c5a9877",
-			"navtitle": "Heartbeat signal",
+			"label": "Heartbeat signal",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-9f5586bd-42bf-0e2d-4219-6baae2b090cc",
-			"navtitle": "References (connectors)",
+			"label": "References (connectors)",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-2900adc5-b726-a0b2-1218-4c49b25d7d77",
-			"navtitle": "Document History (BETA)",
+			"label": "Document History (BETA)",
+			"group": "dita",
 			"val": 8
 		},
 		{
 			"id": "id-004da33b-331a-f18c-284f-0cd374dae7ed",
-			"navtitle": "Content Quality",
+			"label": "Content Quality",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-1c802dd1-0d15-f4d9-100d-c4dd1386b1d6",
-			"navtitle": "Review",
-			"val": 6
+			"label": "Review",
+			"group": "dita",
+			"val": 8
 		},
 		{
 			"id": "id-9198c4a2-efb6-32fd-1a40-4891c0ca6f13",
-			"navtitle": "Spell Checker",
+			"label": "Spell Checker",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-86c1bfb0-767d-70f5-ff86-2d96fa196e90",
-			"navtitle": "Shortcut keys",
+			"label": "Shortcut keys",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-9e2c87be-58e3-1245-567f-71d17c99b24b",
-			"navtitle": "Errors",
+			"label": "Errors",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-13a8db71-c1de-9a9e-f903-cdbba382cf76",
-			"navtitle": "Cannot read property 'currentHierarchyNodeId' of undefined",
+			"label": "Cannot read property 'currentHierarchyNodeId' of undefined",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-6b2b8390-9702-86f8-4c04-8009cda4fe07",
-			"navtitle": "Cannot redefine configuration value \"XXX\"",
+			"label": "Cannot redefine configuration value \"XXX\"",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-47158398-a95d-c2e3-47a9-11554ff5482b",
-			"navtitle": "Character set \"XXX\" does not exist",
+			"label": "Character set \"XXX\" does not exist",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-3702e2a9-288c-ec33-5213-64cdb8c24c93",
-			"navtitle": "Error loading document for topicref: ...",
-			"val": 0
+			"label": "Error loading document for topicref: ...",
+			"group": "dita",
+			"val": 1
 		},
 		{
 			"id": "id-2ef63d10-dd66-e27b-6940-7c16a9713af4",
-			"navtitle": "Error loading initial documents Error: cannot GET http://XXX",
+			"label": "Error loading initial documents Error: cannot GET http://XXX",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-2c903d47-e492-582a-67e8-933c14c4cf60",
-			"navtitle": "Expected a node but got null",
+			"label": "Expected a node but got null",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-9da78c77-5e3d-afcf-fa71-50fb7a513eb6",
-			"navtitle": "Invalid class attribute value \"XXX\"",
+			"label": "Invalid class attribute value \"XXX\"",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-fdb5511c-874e-59a2-81cd-1e7d99031a71",
-			"navtitle": "Invalid reponse status code XXX, expected one of: YYY",
+			"label": "Invalid reponse status code XXX, expected one of: YYY",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-0c60005f-a1b9-e32f-4091-6ba1b3500c83",
-			"navtitle": "Mixed units of width for tables are not supported",
+			"label": "Mixed units of width for tables are not supported",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7268e2d6-8a8d-88ea-69ad-2b7c196d954a",
-			"navtitle": "Modal: Fonto was unable to complete your action due to an unexpected error",
+			"label": "Modal: Fonto was unable to complete your action due to an unexpected error",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-8a83ea5b-160d-71e5-1ae0-f9b20c0ff276",
-			"navtitle": "Operation \"XXX\" is already running and therefore can't be executed again right now",
+			"label": "Operation \"XXX\" is already running and therefore can't be executed again right now",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-c5d382d6-49e4-5bc2-e09e-a9f0525a64e7",
-			"navtitle": "Schema location could not be resolved for URI: XXX",
+			"label": "Schema location could not be resolved for URI: XXX",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-67ec1990-d7ad-3908-ed5a-233482500af6",
-			"navtitle": "Semantically incorrect tables are not supported",
+			"label": "Semantically incorrect tables are not supported",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7a83acc1-a0a2-373e-a3ad-fb70550c108d",
-			"navtitle": "Template not defined for node \"XXX\" in mode: default mode.",
+			"label": "Template not defined for node \"XXX\" in mode: default mode.",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-5e8b8c7b-ea1e-e10d-0492-82f9bbe74d4f",
-			"navtitle": "The following nodes failed validation",
-			"val": 0
+			"label": "The following nodes failed validation",
+			"group": "dita",
+			"val": 1
 		},
 		{
 			"id": "id-d679b919-0863-8644-a4c0-3cc427f2f38d",
-			"navtitle": "Transform component \"stylesheet-template/content\" not defined for node \"XXX\"",
+			"label": "Transform component \"stylesheet-template/content\" not defined for node \"XXX\"",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-5c3df326-4744-f5d7-d4a5-9c3ecf3d6371",
-			"navtitle": "Unable to generate stencil, check your stencil definition",
+			"label": "Unable to generate stencil, check your stencil definition",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7bb07cba-9a40-a248-08d4-c90d409d9fd6",
-			"navtitle": "Uncaught SyntaxError: JSON.parse: ...",
+			"label": "Uncaught SyntaxError: JSON.parse: ...",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-aa423bf9-da58-447b-a4ea-58f9738ac0fe",
-			"navtitle": "Do not call externalDataManager.setExternalData while rendering",
+			"label": "Do not call externalDataManager.setExternalData while rendering",
+			"group": "dita",
 			"val": 2
 		},
 		{
+			"id": "id-7cb5310f-0952-44f4-b173-8a44846970e5",
+			"label": "This schema is not compatible with this version of Fonto",
+			"group": "dita",
+			"val": 1
+		},
+		{
 			"id": "id-bf9b2653-5f6b-5335-0b7a-e0950cf9dd13",
-			"navtitle": "Best practices",
+			"label": "Best practices",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d915ec4b-a542-50d8-958e-54f483d5817e",
-			"navtitle": "Setting up a user-friendly editor",
+			"label": "Setting up a user-friendly editor",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-4f4392b8-8357-65a6-5e5c-7b88e20ceb88",
-			"navtitle": "Writing interface copy",
+			"label": "Writing interface copy",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f1f2f92e-bc76-c69b-88e7-cf6ec5ec797f",
-			"navtitle": "Release notes",
+			"label": "Release notes",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-2e020dcf-791f-989f-ba10-7ca0de4226cd",
-			"navtitle": "Known issues",
+			"label": "Known issues",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-aa22bebe-10bb-0b51-5254-6517c6b9cb68",
-			"navtitle": "[Resolved] Fonto & Chrome 80",
+			"label": "[Resolved] Fonto & Chrome 80",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-0ff73a25-ddec-9eea-4d7b-92d4a7c79f04",
-			"navtitle": "Known browser issues",
+			"label": "Known browser issues",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-44abc89b-324c-910c-6184-1b45759364d5",
-			"navtitle": "Known tools issues",
+			"label": "Known tools issues",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-30f24d42-35e3-407a-c6d1-44759589c72a",
-			"navtitle": "Fonto Editor 7.13.2 (January 15, 2021)",
+			"label": "Fonto Editor 7.13.2 (January 15, 2021)",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-9298a4ae-b33a-4be3-b90d-f84586aa0b86",
-			"navtitle": "Fonto Editor 7.13.1 (December 23, 2020)",
+			"label": "Fonto Editor 7.13.1 (December 23, 2020)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-e532f5c2-a034-4ab3-ea81-b1a6c1048af6",
-			"navtitle": "Fonto Editor 7.13.0 (December 17, 2020)",
+			"label": "Fonto Editor 7.13.0 (December 17, 2020)",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-8c2dae12-8618-4b52-a4c5-7196fcce3594",
-			"navtitle": "Fonto Editor 7.12.2 (October 23, 2020)",
+			"label": "Fonto Editor 7.12.2 (October 23, 2020)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-276af6de-0925-403a-813b-fdcc5f4fb47b",
-			"navtitle": "Fonto 7.12.1 (October 9, 2020)",
+			"label": "Fonto 7.12.1 (October 9, 2020)",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-517bc3c4-59ff-52a7-d9f5-8c52d61f8ad7",
-			"navtitle": "Fonto 7.12.0 (September 24, 2020)",
+			"label": "Fonto 7.12.0 (September 24, 2020)",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-ed7e9eab-3da2-ee69-d31f-1fe4584e12f6",
-			"navtitle": "Fonto 7.11.1 (July 17, 2020)",
+			"label": "Fonto 7.11.1 (July 17, 2020)",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-78e8e928-d961-07a5-fec1-1d91fca1648e",
-			"navtitle": "Fonto 7.11.0 (June 26, 2020)",
+			"label": "Fonto 7.11.0 (June 26, 2020)",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-3cd71ed6-6a8e-de76-8c95-3d47e8de85fa",
-			"navtitle": "Fonto 7.10.1 (April 14, 2020)",
+			"label": "Fonto 7.10.1 (April 14, 2020)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-bbf5f79b-8c73-b7e1-bef8-9d0fef981c73",
-			"navtitle": "Fonto 7.10.0 (March 26, 2020)",
+			"label": "Fonto 7.10.0 (March 26, 2020)",
+			"group": "dita",
 			"val": 10
 		},
 		{
 			"id": "id-d1f39c86-c089-0e65-2c48-f03b3072aa76",
-			"navtitle": "Fonto 7.9.1 (February 11, 2020)",
+			"label": "Fonto 7.9.1 (February 11, 2020)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-461f0f79-6efd-5215-31ea-a6495c1fbac8",
-			"navtitle": "Fonto 7.9.0 (December 19, 2019)",
+			"label": "Fonto 7.9.0 (December 19, 2019)",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-b829f4cb-5c21-6935-f6dd-c7f8b0e7ea3d",
-			"navtitle": "Fonto 7.8.3 (December 2, 2019)",
+			"label": "Fonto 7.8.3 (December 2, 2019)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-892a2a7c-3d02-2cd1-cd7a-2f89bcd8524d",
-			"navtitle": "Fonto 7.8.2 (November 20, 2019)",
+			"label": "Fonto 7.8.2 (November 20, 2019)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-710ce4b0-fc5f-1717-1ede-af4c0679626b",
-			"navtitle": "Fonto 7.8.1 (October 24, 2019)",
+			"label": "Fonto 7.8.1 (October 24, 2019)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-65ba5d88-c61a-8b76-4e70-8474d84f2f52",
-			"navtitle": "Fonto 7.8.0 (September 26, 2019)",
+			"label": "Fonto 7.8.0 (September 26, 2019)",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-3dfd3c9e-7ee9-1fdb-b740-a15e42ca8425",
-			"navtitle": "Fonto 7.7.3 (August 9, 2019)",
+			"label": "Fonto 7.7.3 (August 9, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-b6e00d8c-65c8-13b6-4ed0-ba68231a06c0",
-			"navtitle": "Fonto 7.7.2 (July 2, 2019)",
+			"label": "Fonto 7.7.2 (July 2, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-948d2e1e-3d73-ff7d-fc1f-a5b11d143152",
-			"navtitle": "Fonto 7.7.1 (June 27, 2019)",
+			"label": "Fonto 7.7.1 (June 27, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-51ef7a55-890e-375a-6175-71715d4ddb69",
-			"navtitle": "Fonto 7.7.0 (June 20, 2019)",
+			"label": "Fonto 7.7.0 (June 20, 2019)",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-1aea1a49-793e-644a-606d-293d0956a204",
-			"navtitle": "Fonto 7.6.2 (April 18, 2019)",
+			"label": "Fonto 7.6.2 (April 18, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-558eaa60-fe5f-f05a-b703-a9138af66c6a",
-			"navtitle": "Fonto 7.6.1 (March 29, 2019)",
+			"label": "Fonto 7.6.1 (March 29, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-479bbe75-f553-99e8-ab81-e9aa21abfeb4",
-			"navtitle": "Fonto 7.6.0 (March 21, 2019)",
+			"label": "Fonto 7.6.0 (March 21, 2019)",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-8e12fde9-e0f6-98f3-14af-52fc9dfdf9de",
-			"navtitle": "FontoXML 7.5.3 (January 22, 2019)",
+			"label": "FontoXML 7.5.3 (January 22, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-be39fb99-4d25-7985-2d40-7154a139a30a",
-			"navtitle": "FontoXML 7.5.2 (January 11, 2019)",
+			"label": "FontoXML 7.5.2 (January 11, 2019)",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-2b2cf074-7493-1acf-d0d9-ba262cd26ce4",
-			"navtitle": "FontoXML 7.5.1 (January 7, 2019)",
+			"label": "FontoXML 7.5.1 (January 7, 2019)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d67d279f-d0e9-8037-b868-8764db2a5eab",
-			"navtitle": "FontoXML 7.5.0 (December 20, 2018)",
+			"label": "FontoXML 7.5.0 (December 20, 2018)",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-79eef3a8-741e-0602-9c5f-a3a278a2fcbf",
-			"navtitle": "FontoXML 7.4.2 (November 7, 2018)",
+			"label": "FontoXML 7.4.2 (November 7, 2018)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-0a09b090-478a-933d-5c6a-f24db1520130",
-			"navtitle": "FontoXML 7.4.1 (October 25, 2018)",
+			"label": "FontoXML 7.4.1 (October 25, 2018)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-ea6c4c22-c198-2238-3d1a-7fe802adc763",
-			"navtitle": "FontoXML 7.4.0 (September 26, 2018)",
+			"label": "FontoXML 7.4.0 (September 26, 2018)",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-0b42c5fe-3c18-af81-f2dc-6fded932b710",
-			"navtitle": "FontoXML 7.3.2 (July 23, 2018)",
+			"label": "FontoXML 7.3.2 (July 23, 2018)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-cf0a19ee-a4e7-9362-aeac-f12b26151205",
-			"navtitle": "FontoXML 7.3.1 (July 3, 2018)",
+			"label": "FontoXML 7.3.1 (July 3, 2018)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-50a4a540-7911-678b-1df5-c44db1f314ea",
-			"navtitle": "FontoXML 7.3.0 (June 20, 2018)",
+			"label": "FontoXML 7.3.0 (June 20, 2018)",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-24c34f06-29d9-15da-0de4-9fc64f1f0b63",
-			"navtitle": "FontoXML 7.2.1 (May 22, 2018)",
+			"label": "FontoXML 7.2.1 (May 22, 2018)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-9e663228-57a2-a023-ea40-4c1bad5eebd1",
-			"navtitle": "FontoXML 7.2.0 (April 12, 2018)",
+			"label": "FontoXML 7.2.0 (April 12, 2018)",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-39893865-896e-f841-75d6-c969f1e575cc",
-			"navtitle": "FontoXML 7.1.1 (March 20, 2018)",
+			"label": "FontoXML 7.1.1 (March 20, 2018)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-43c995c3-b7bc-8cd1-b80f-f29ad4d17104",
-			"navtitle": "FontoXML 7.1.0 (February 23, 2018)",
+			"label": "FontoXML 7.1.0 (February 23, 2018)",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-189495cb-7ba7-bf05-0efd-b7edad56b063",
-			"navtitle": "FontoXML 7.0.0 (December 20, 2017)",
+			"label": "FontoXML 7.0.0 (December 20, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-82f977f6-a65d-060b-45c5-78de21f5a3e7",
-			"navtitle": "FontoXML 6.11.6 (July 13, 2017)",
+			"label": "FontoXML 6.11.6 (July 13, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-a488b666-0764-c810-b55a-5b111e4f210c",
-			"navtitle": "FontoXML 6.11.5 (July 3, 2017)",
+			"label": "FontoXML 6.11.5 (July 3, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f0fc1959-c401-9dd2-6374-88639dcebd15",
-			"navtitle": "FontoXML 6.11.4 (May 16, 2017)",
+			"label": "FontoXML 6.11.4 (May 16, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-db22d484-b7d9-88d1-eb45-72e9666d34af",
-			"navtitle": "FontoXML 6.11.3 (May 11, 2017)",
+			"label": "FontoXML 6.11.3 (May 11, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-59cae98c-00d1-b885-2cf4-0f3c684b5e63",
-			"navtitle": "FontoXML 6.11.2 (May 10, 2017)",
+			"label": "FontoXML 6.11.2 (May 10, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f38ae34f-e24b-ed53-17f3-05c277d5e2dd",
-			"navtitle": "FontoXML 6.11.1 (May 10, 2017)",
+			"label": "FontoXML 6.11.1 (May 10, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-05a6eaad-83af-781e-e809-9e74f73a0678",
-			"navtitle": "FontoXML 6.11.0 (May 5, 2017)",
+			"label": "FontoXML 6.11.0 (May 5, 2017)",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-31a7e12a-68fb-013c-5579-fe248e5436c0",
-			"navtitle": "FontoXML 6.10.2 (April 12, 2017)",
+			"label": "FontoXML 6.10.2 (April 12, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-a9e448bf-f117-fa75-8a84-bcec331876e5",
-			"navtitle": "FontoXML 6.10.1 (April 4, 2017)",
+			"label": "FontoXML 6.10.1 (April 4, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-0ab01771-e7ad-c168-04ff-a79a707db517",
-			"navtitle": "FontoXML 6.10.0 (March 31, 2017)",
+			"label": "FontoXML 6.10.0 (March 31, 2017)",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-1ad2a455-a585-e3e4-b438-001e97492c8a",
-			"navtitle": "FontoXML 6.9.1 (March 2, 2017)",
+			"label": "FontoXML 6.9.1 (March 2, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7b9fc473-58a1-a42f-a380-1abb9c10ef8f",
-			"navtitle": "FontoXML 6.9.0 (February 17, 2017)",
+			"label": "FontoXML 6.9.0 (February 17, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-328bd476-68d5-fe5d-741c-add4d65e876e",
-			"navtitle": "FontoXML 6.8.1 (January 11, 2017)",
+			"label": "FontoXML 6.8.1 (January 11, 2017)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-ede0cf40-3756-8ab0-8881-544e2781e388",
-			"navtitle": "FontoXML 6.8.0 (December 23, 2016)",
+			"label": "FontoXML 6.8.0 (December 23, 2016)",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-0d15f255-81b6-3045-3f2e-0721d7485779",
-			"navtitle": "FontoXML 6.7.1 (November 25, 2016)",
+			"label": "FontoXML 6.7.1 (November 25, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-3a9a7617-944d-ac4c-d7d0-2c37b98ebb22",
-			"navtitle": "FontoXML 6.7.0 (November 18, 2016)",
+			"label": "FontoXML 6.7.0 (November 18, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-ef20e031-6d09-d582-a985-e51225a9fcf7",
-			"navtitle": "FontoXML 6.6.1 (October 11, 2016)",
+			"label": "FontoXML 6.6.1 (October 11, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d338c8fc-4920-be58-930d-74ad4c5020b3",
-			"navtitle": "FontoXML 6.6.0 (October 7, 2016)",
+			"label": "FontoXML 6.6.0 (October 7, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f774854a-d23c-c674-d9a6-3e083353b7ba",
-			"navtitle": "FontoXML 6.5.0 (Augustus 12, 2016)",
+			"label": "FontoXML 6.5.0 (Augustus 12, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-03ec67f8-dde4-786f-6503-222f95be827a",
-			"navtitle": "FontoXML 6.4.1 (June 29, 2016)",
+			"label": "FontoXML 6.4.1 (June 29, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-ed23198d-3df0-9822-d7a4-7aa5918d61d5",
-			"navtitle": "FontoXML 6.4.0 (June 17, 2016)",
+			"label": "FontoXML 6.4.0 (June 17, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-023f0c4e-4957-6648-a7e3-e1c9594f4ead",
-			"navtitle": "FontoXML 6.3.0 (May 13, 2016)",
+			"label": "FontoXML 6.3.0 (May 13, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f8dee124-14c9-7411-c2d5-358a9a668908",
-			"navtitle": "FontoXML 6.2.2 (April 28, 2016)",
+			"label": "FontoXML 6.2.2 (April 28, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-32307d33-8635-3950-dc30-d6e868a7fc97",
-			"navtitle": "FontoXML 6.2.1 (April 22, 2016)",
+			"label": "FontoXML 6.2.1 (April 22, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-80016ed0-8b6c-7b96-5487-b362708bedc4",
-			"navtitle": "FontoXML 6.2.0 (April 15, 2016)",
+			"label": "FontoXML 6.2.0 (April 15, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-65343ceb-a25d-1b05-6d3c-caee9369f172",
-			"navtitle": "FontoXML 6.1.4 (April 6, 2016)",
+			"label": "FontoXML 6.1.4 (April 6, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-73c300f0-3c3c-dc31-f3f6-23c7638522ff",
-			"navtitle": "FontoXML 6.1.3 (April 1, 2016)",
+			"label": "FontoXML 6.1.3 (April 1, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-5f293e0e-6e2c-be28-2bda-349653f127c6",
-			"navtitle": "FontoXML 6.1.2 (March 25, 2016)",
+			"label": "FontoXML 6.1.2 (March 25, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f41ccb9e-5355-cf75-ef6d-77c5fad3474f",
-			"navtitle": "FontoXML 6.1.1 (March 21, 2016)",
+			"label": "FontoXML 6.1.1 (March 21, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-a91b8c64-18e4-8447-0309-6109009b6281",
-			"navtitle": "FontoXML 6.1.0 (February 19, 2016)",
+			"label": "FontoXML 6.1.0 (February 19, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-1679ab01-3bf5-4a1b-9cda-e26f53672e85",
-			"navtitle": "FontoXML 6.0.3 (February 11, 2016)",
+			"label": "FontoXML 6.0.3 (February 11, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-9956e220-aab5-23b8-3480-61643d531dd8",
-			"navtitle": "FontoXML 6.0.2 (January 27, 2016)",
+			"label": "FontoXML 6.0.2 (January 27, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-81cb3b85-af7d-d551-fdbd-2d269f873b26",
-			"navtitle": "FontoXML 6.0.1 (January 13, 2016)",
+			"label": "FontoXML 6.0.1 (January 13, 2016)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-51bcca51-5d73-08f9-a741-f5d7d8fe1b3b",
-			"navtitle": "FontoXML 6.0.0 (December 24, 2015)",
+			"label": "FontoXML 6.0.0 (December 24, 2015)",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-701f4fd9-a1ae-f7a9-34a6-b7b24eede2da",
-			"navtitle": "Upgrade Instructions",
+			"label": "Upgrade Instructions",
+			"group": "dita",
 			"val": 8
 		},
 		{
 			"id": "id-3cb1baa9-46e1-5c47-2861-e19af0fbb6ea",
-			"navtitle": "Upcoming Deprecations 7.14",
+			"label": "Upcoming Deprecations 7.14",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-76381d84-7f5f-4ad6-df40-cec98e60fa73",
-			"navtitle": "Upgrade from 7.12 to 7.13",
+			"label": "Upgrade from 7.12 to 7.13",
+			"group": "dita",
 			"val": 8
 		},
 		{
 			"id": "id-a4bf7d3e-dce0-d76d-5552-87edd5a930a9",
-			"navtitle": "Upgrade from 7.11 to 7.12",
+			"label": "Upgrade from 7.11 to 7.12",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-0cabebbb-ec30-f822-16af-abbe77ce61c8",
-			"navtitle": "Upgrade from 7.11 to 7.11.1",
+			"label": "Upgrade from 7.11 to 7.11.1",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-fed4ef86-1e14-5cb1-16b9-7c6413a2e91f",
-			"navtitle": "Upgrade from 7.10 to 7.11",
+			"label": "Upgrade from 7.10 to 7.11",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-95dedff7-5a70-2642-bee3-fc66c5c3b237",
-			"navtitle": "Upgrade from 7.9 to 7.10",
+			"label": "Upgrade from 7.9 to 7.10",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-684d4352-3b0e-42d7-9787-c3791c3baa0f",
-			"navtitle": "Upgrade from 7.8 to 7.9",
+			"label": "Upgrade from 7.8 to 7.9",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-81f8dd50-3515-26b8-1c7d-d984383a5412",
-			"navtitle": "Upgrade from 7.8.2 to 7.8.3",
+			"label": "Upgrade from 7.8.2 to 7.8.3",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-85babf75-592e-2b7d-0af5-e886e1a1660b",
-			"navtitle": "Upgrade from 7.8.1 to 7.8.2",
+			"label": "Upgrade from 7.8.1 to 7.8.2",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-c0c4fc3d-7864-a65c-4abb-b47ad9e445e1",
-			"navtitle": "Upgrade from 7.8.0 to 7.8.1",
+			"label": "Upgrade from 7.8.0 to 7.8.1",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-d242de11-e614-ba1c-394c-785c1c219f2e",
-			"navtitle": "Upgrade from 7.7 to 7.8",
+			"label": "Upgrade from 7.7 to 7.8",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-fba2fdd2-d1b2-924e-48ad-2a1b1063a46d",
-			"navtitle": "Upgrade from 7.6 to 7.7",
+			"label": "Upgrade from 7.6 to 7.7",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-f7e1e9fb-0d71-1c8b-fe39-77b22c9a0e07",
-			"navtitle": "Upgrade from 7.5 to 7.6",
+			"label": "Upgrade from 7.5 to 7.6",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-a1c911a6-64f4-d8b4-7293-4d071c9549e4",
-			"navtitle": "Upgrade from 7.4 to 7.5",
+			"label": "Upgrade from 7.4 to 7.5",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7d9eb5c5-d85b-320a-05fc-a9f751fbba73",
-			"navtitle": "Upgrade from 7.3 to 7.4",
+			"label": "Upgrade from 7.3 to 7.4",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-614e278d-d5e2-de14-1c50-1727bbe4506e",
-			"navtitle": "Upgrade from 7.2 to 7.3",
+			"label": "Upgrade from 7.2 to 7.3",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-ec71a971-748d-3d04-daa5-b9d26ecfb1dc",
-			"navtitle": "Upgrade from 7.1 to 7.2",
+			"label": "Upgrade from 7.1 to 7.2",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-28a36376-6e88-9484-6bfc-fa355c181eeb",
-			"navtitle": "Upgrade from 7.0 to 7.1",
+			"label": "Upgrade from 7.0 to 7.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-6bdf75e7-af97-bc20-3814-8e03a41025f7",
-			"navtitle": "Upgrade from 6.11 to 7.0",
+			"label": "Upgrade from 6.11 to 7.0",
+			"group": "dita",
 			"val": 16
 		},
 		{
 			"id": "id-ea74581a-73b7-f761-58f8-0ecf46404ca6",
-			"navtitle": "How and why we changed the way our references work",
+			"label": "How and why we changed the way our references work",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-ba89afeb-fffb-0fca-10fd-a9736e0ca4d9",
-			"navtitle": "Reconfiguring references",
+			"label": "Reconfiguring references",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-d9712323-2ce5-75eb-f14f-9d8768af00f4",
-			"navtitle": "Upgrade from 6.10 to 6.11",
+			"label": "Upgrade from 6.10 to 6.11",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-1c13f26e-25ed-c78a-19d1-4bed1b2dffe2",
-			"navtitle": "Upgrade from 6.9 to 6.10",
+			"label": "Upgrade from 6.9 to 6.10",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-09a00309-cd6a-8267-ae7b-2a725aa13674",
-			"navtitle": "Upgrade from 6.8 to 6.9",
+			"label": "Upgrade from 6.8 to 6.9",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-c130b75a-2ec5-6f25-17a8-c478677302be",
-			"navtitle": "Upgrade from 6.7 to 6.8",
+			"label": "Upgrade from 6.7 to 6.8",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-e87c1374-8d59-6029-ad2d-0ebc35ca9362",
-			"navtitle": "Upgrade from 6.6 to 6.7",
+			"label": "Upgrade from 6.6 to 6.7",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f97b8ea9-f404-5eac-d673-3a7f55fdb4c6",
-			"navtitle": "Upgrade from 6.5 to 6.6",
+			"label": "Upgrade from 6.5 to 6.6",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7b333974-7222-a534-5b27-c3cb0ca0eb58",
-			"navtitle": "Upgrade from 6.4 to 6.5",
+			"label": "Upgrade from 6.4 to 6.5",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-536353b8-dda2-1fd8-39d6-a6cdc0ae86c6",
-			"navtitle": "Upgrade from 6.3 to 6.4",
+			"label": "Upgrade from 6.3 to 6.4",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-c9644a04-e481-a7b9-fee3-df79c1467863",
-			"navtitle": "Upgrade from 6.2 to 6.3",
+			"label": "Upgrade from 6.2 to 6.3",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-0cbd1850-43c0-5588-71cf-d891f2d81134",
-			"navtitle": "Upgrade from 6.1 to 6.2",
+			"label": "Upgrade from 6.1 to 6.2",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-1020d835-06de-5c4e-3101-504c95f67557",
-			"navtitle": "Upgrade from 6.0 to 6.1",
+			"label": "Upgrade from 6.0 to 6.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-90be4bd2-f26e-ebc0-7bfe-ba258431bd11",
-			"navtitle": "FAQ",
+			"label": "FAQ",
+			"group": "dita",
 			"val": 12
 		},
 		{
 			"id": "id-b38dbc34-ce9f-c074-5ab8-36dabcebfea1",
-			"navtitle": "Review",
+			"label": "Review",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-2a2ed911-acfd-4f66-bd03-7b928fe7a228",
-			"navtitle": "Product overview",
+			"label": "Product overview",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-1c44ee97-d2e2-910f-9089-b7c481945af4",
-			"navtitle": "Getting started",
-			"val": 3
-		},
-		{
-			"id": "id-62ce747b-d6e0-5ef3-f212-c6545ca75046",
-			"navtitle": "Configuration",
+			"label": "Getting started",
+			"group": "dita",
 			"val": 4
 		},
 		{
-			"id": "id-5e9f3150-5ab0-0b59-e815-03e770d80d16",
-			"navtitle": "Fonto Review Backend endpoints",
+			"id": "id-62ce747b-d6e0-5ef3-f212-c6545ca75046",
+			"label": "Configuration",
+			"group": "dita",
+			"val": 4
+		},
+		{
+			"id": "id-3877ce9e-dddd-46ba-e063-c4c07b518930",
+			"label": "Front-end configuration",
+			"group": "dita",
 			"val": 2
 		},
 		{
+			"id": "id-d97b4fd4-b4e8-44ec-b9f1-bc152b41147e",
+			"label": "Back-end configuration",
+			"group": "dita",
+			"val": 5
+		},
+		{
+			"id": "id-5e9f3150-5ab0-0b59-e815-03e770d80d16",
+			"label": "Fonto Review Backend endpoints",
+			"group": "dita",
+			"val": 3
+		},
+		{
+			"id": "id-f4071735-4403-4ad3-9f5d-946410248c16",
+			"label": "Integrate with a CMS",
+			"group": "dita",
+			"val": 4
+		},
+		{
 			"id": "id-40f7fc35-4a29-6cc0-4dc8-24368aedcf1e",
-			"navtitle": "Deployment",
+			"label": "Deployment",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-699974e8-20ed-25db-ef77-3fdb34780c7b",
-			"navtitle": "Monitoring",
+			"label": "Monitoring",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-14203e13-345b-813b-cbab-c06e66c725c7",
-			"navtitle": "Release notes",
+			"label": "Release notes",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-c38741c5-05eb-7f0f-864c-d0f1f8ec8d25",
-			"navtitle": "Known issues",
+			"label": "Known issues",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-fe36f6d3-7af6-4cc2-fda7-4b5919033d70",
-			"navtitle": "Fonto Review 7.14.0",
+			"label": "Fonto Review 7.14.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-4faf1803-035a-4347-9ccf-ecff9c1ca6ab",
-			"navtitle": "Fonto Review 7.13.2",
+			"label": "Fonto Review 7.13.2",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-fb362f6d-50d0-4162-ad47-d2e6857c064b",
-			"navtitle": "Fonto Review 7.13.1",
+			"label": "Fonto Review 7.13.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-442182a7-678b-4e5c-876c-af6082c476dd",
-			"navtitle": "Fonto Review 7.13.0",
+			"label": "Fonto Review 7.13.0",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-ff1b1b21-ebaf-4ba3-c57f-8cc9d80be904",
-			"navtitle": "Fonto Review 7.12.2",
+			"label": "Fonto Review 7.12.2",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-9e612ab0-d2b6-4704-dc96-59303dee6c4f",
-			"navtitle": "Fonto Review 7.12.1",
+			"label": "Fonto Review 7.12.1",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-b0ecc0f2-2c70-ba27-d50b-b3960c24e5d0",
-			"navtitle": "Fonto Review 7.12.0",
+			"label": "Fonto Review 7.12.0",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-ebeb0b66-ef3e-3b43-424a-513a20ba3de6",
-			"navtitle": "Fonto Review 7.11.1",
+			"label": "Fonto Review 7.11.1",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-14dfd502-390a-b455-acae-4b5eedc21fce",
-			"navtitle": "Fonto Review 7.11.0",
+			"label": "Fonto Review 7.11.0",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-39aa1f46-ea7c-db3f-55d6-9e268ed2f015",
-			"navtitle": "Fonto Review 7.10.1",
+			"label": "Fonto Review 7.10.1",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-8866bf62-c398-67f2-0ec8-dec342649b52",
-			"navtitle": "Fonto Review 7.10.0",
+			"label": "Fonto Review 7.10.0",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-67f78300-3884-f6cd-9e29-e60d1f6a6866",
-			"navtitle": "Fonto Review 7.9.0",
+			"label": "Fonto Review 7.9.0",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-674c3105-cc0c-c72f-5af1-74ef2238a47d",
-			"navtitle": "Fonto Review 7.8.0",
+			"label": "Fonto Review 7.8.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d6119363-60fa-0101-d86d-41aef9a195cc",
-			"navtitle": "Content Quality",
+			"label": "Content Quality",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-bc173867-f853-0b08-2068-d118a9f36007",
-			"navtitle": "Introduction",
+			"label": "Introduction",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-f6c5921e-0677-41b1-60dc-468017afafd0",
-			"navtitle": "Requirements",
+			"label": "Requirements",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-e3fd208e-39fc-449d-4df5-28f9435d3a58",
-			"navtitle": "Getting started",
+			"label": "Getting started",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-0e01967c-5d2f-5e64-1f2d-9bf7e38bef3b",
-			"navtitle": "Tutorial",
+			"label": "Tutorial",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-b8a409aa-2e9f-918f-89cf-5cc1c2e485fe",
-			"navtitle": "Infrastructure",
+			"label": "Infrastructure",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-07d4e392-6e6d-1fc2-a8be-1210d1cecf0e",
-			"navtitle": "Annotations",
+			"label": "Annotations",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-f3c1806f-1dab-edaf-b202-03d29c92e8b9",
-			"navtitle": "Configuration",
+			"label": "Configuration",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-f7133c4f-5cd4-18d6-31a9-7c2ea474c54f",
-			"navtitle": "Configure the backend",
+			"label": "Configure the backend",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-1d7e887d-1806-3f27-c9d8-c0aa3c21301a",
-			"navtitle": "Configure the analysis",
+			"label": "Configure the analysis",
+			"group": "dita",
 			"val": 8
 		},
 		{
 			"id": "id-605a74eb-0d21-5a73-223f-57b2db1e3e39",
-			"navtitle": "Compositors",
+			"label": "Compositors",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-a292a03f-2a79-e257-5eac-036ebd564126",
-			"navtitle": "Annotators",
+			"label": "Annotators",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-6039dc5a-3659-477b-18d2-62e52e70761d",
-			"navtitle": "AnnotationsRegexAnnotator",
+			"label": "AnnotationsRegexAnnotator",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-994800b3-cbcb-5073-2786-370bae98ef04",
-			"navtitle": "DictionaryAnnotator",
+			"label": "DictionaryAnnotator",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-a4651967-ed64-89e8-6c5d-76d1c3784526",
-			"navtitle": "HttpApiAnnotator",
+			"label": "HttpApiAnnotator",
+			"group": "dita",
 			"val": 11
 		},
 		{
 			"id": "id-99d3d004-4b11-faf3-0e02-f7ba4df0d32a",
-			"navtitle": "LanguageToolAnnotator",
+			"label": "LanguageToolAnnotator",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-2bdb91b9-afee-3589-e552-d80301b4c84f",
-			"navtitle": "RegexAnnotator",
+			"label": "RegexAnnotator",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-5c1cb1f9-0ee6-5c8c-bc35-880ff8877fca",
-			"navtitle": "XPathAnnotator",
+			"label": "XPathAnnotator",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-11afb9b3-54b7-24cb-34fb-003176bdfec5",
-			"navtitle": "Filters",
+			"label": "Filters",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-997ada72-efe4-0563-992d-d4e30f2c9f0b",
-			"navtitle": "RemoveAnnotations",
+			"label": "RemoveAnnotations",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-b48c7472-0f90-ec82-be14-f4dfb3574518",
-			"navtitle": "RemoveIntersectingAnnotations",
+			"label": "RemoveIntersectingAnnotations",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-b671be5e-a666-eff0-161e-d707c70c2fc3",
-			"navtitle": "RemoveIntersectingTextAnnotations",
+			"label": "RemoveIntersectingTextAnnotations",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-1de9940f-2d0e-afc2-3134-dcbcc6ca0602",
-			"navtitle": "RemoveTextAnnotationsIntersectingXmlElements",
+			"label": "RemoveTextAnnotationsIntersectingXmlElements",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-78343904-9a7f-0811-d213-16b07aadece4",
-			"navtitle": "Using environment variables",
+			"label": "Using environment variables",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-130a86b2-8a1f-d13b-d15e-35585d54cd45",
-			"navtitle": "Configure the editor",
+			"label": "Configure the editor",
+			"group": "dita",
 			"val": 7
 		},
 		{
 			"id": "id-109aab69-4889-b164-925e-63adceb76736",
-			"navtitle": "Annotation types",
+			"label": "Annotation types",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-419dcda7-8aa3-3d60-1da9-780ee861d255",
-			"navtitle": "Create a good user experience",
+			"label": "Create a good user experience",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-0f071f75-2ca8-8675-84d7-156ef9ec4a6a",
-			"navtitle": "Fixed sidebar items",
+			"label": "Fixed sidebar items",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-8f5cf1a5-aedb-0a9d-55c4-2a1ce3265369",
-			"navtitle": "Operations",
+			"label": "Operations",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-060cd73b-13bf-0367-e31f-6a508fa16194",
-			"navtitle": "Deployment",
+			"label": "Deployment",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-1e02575a-97b0-2c30-c542-46f5d62de656",
-			"navtitle": "Monitoring",
+			"label": "Monitoring",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-84b334f6-579b-065e-496f-1dbd483dac83",
-			"navtitle": "Troubleshooting",
+			"label": "Troubleshooting",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-6699e517-abd7-f0e8-274c-63052b5a8730",
-			"navtitle": "Release notes",
+			"label": "Release notes",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-6c018d46-6632-4f73-ec51-039bb25ec6ea",
-			"navtitle": "Fonto Content Quality 7.14.0",
+			"label": "Fonto Content Quality 7.14.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-2206d983-ed76-4035-c1ec-cbc33a0842e9",
-			"navtitle": "Fonto Content Quality 7.13.2",
+			"label": "Fonto Content Quality 7.13.2",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-9e0578be-b81c-4bc1-a79f-671adca02244",
-			"navtitle": "Fonto Content Quality 7.13.1",
+			"label": "Fonto Content Quality 7.13.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-bc551435-6670-4339-83c6-2496d93ff304",
-			"navtitle": "Fonto Content Quality 7.13.0",
+			"label": "Fonto Content Quality 7.13.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-376b773b-62d7-4b11-9c7a-d6ef94669411",
-			"navtitle": "Fonto Content Quality 7.12.2",
+			"label": "Fonto Content Quality 7.12.2",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-27fbb3f5-5774-44fb-e938-d66497ac9e41",
-			"navtitle": "Fonto Content Quality 7.12.1",
+			"label": "Fonto Content Quality 7.12.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-2327a8cb-dfed-762e-191d-301e65a802b0",
-			"navtitle": "Fonto Content Quality 7.12.0",
+			"label": "Fonto Content Quality 7.12.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-0a541cd5-6a62-a924-932b-61c3b6c346a8",
-			"navtitle": "Fonto Content Quality 7.11.1",
+			"label": "Fonto Content Quality 7.11.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-8d283f44-fc37-1963-b6a1-4cd13506ca21",
-			"navtitle": "Fonto Content Quality 7.11.0",
+			"label": "Fonto Content Quality 7.11.0",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-ab23b3ac-4e4a-6893-8a93-141450249220",
-			"navtitle": "Fonto Content Quality 7.10.0",
+			"label": "Fonto Content Quality 7.10.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-592db536-55a3-d34e-c708-7885e613f1e3",
-			"navtitle": "Fonto Content Quality 7.9.0",
+			"label": "Fonto Content Quality 7.9.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-234aa9e0-23fa-2365-b9be-f147b4fd2131",
-			"navtitle": "Fonto Content Quality 7.8.0",
+			"label": "Fonto Content Quality 7.8.0",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-936c44b8-9779-f05d-fe3c-bad096e3e50b",
-			"navtitle": "Fonto Content Quality 1.4.4",
+			"label": "Fonto Content Quality 1.4.4",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-3ab3615c-4f45-ce36-fa55-58bcc715b263",
-			"navtitle": "Fonto Content Quality 1.4.3",
+			"label": "Fonto Content Quality 1.4.3",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-c1d773bc-54b0-60a6-2fef-333a5f29440d",
-			"navtitle": "Fonto Content Quality 1.4.1",
+			"label": "Fonto Content Quality 1.4.1",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-111fe7e3-dd6d-c7f8-d4c1-2e21b4e2a4e4",
-			"navtitle": "Fonto Content Quality 1.4.0",
+			"label": "Fonto Content Quality 1.4.0",
+			"group": "dita",
 			"val": 8
 		},
 		{
 			"id": "id-458469fe-401f-94dd-2766-90e4d182adf6",
-			"navtitle": "Fonto Content Quality 1.3.0",
+			"label": "Fonto Content Quality 1.3.0",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-9806a6e1-7d3f-ed73-9d07-8c54471c039d",
-			"navtitle": "Fonto Content Quality 1.2.0",
+			"label": "Fonto Content Quality 1.2.0",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-36a7c864-b8d7-173a-0a6e-e84114f9ffca",
-			"navtitle": "Fonto Content Quality 1.1.0",
+			"label": "Fonto Content Quality 1.1.0",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-d92c0f83-80b4-d53d-f04c-76e4ef72c037",
-			"navtitle": "Fonto Content Quality 1.0.0",
+			"label": "Fonto Content Quality 1.0.0",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-2a69ee05-d5fe-81b3-77c8-09e1da235a00",
-			"navtitle": "Document History",
+			"label": "Document History",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-171a2440-6db9-2bc8-434e-98ad3759c4f0",
-			"navtitle": "Available connectors",
+			"label": "Available connectors",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-dabff5e5-eec8-2fa9-564a-68d8887ce0cb",
-			"navtitle": "UI Integration",
+			"label": "UI Integration",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-08116f80-f142-4fff-c731-8ce5f7aafd23",
-			"navtitle": "Configuration",
+			"label": "Configuration",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-5c063391-0e97-33eb-388f-5b113ff8e6ff",
-			"navtitle": "Diff API",
+			"label": "Diff API",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-bf0be496-a352-25e8-ef3a-27ea6d2d12b3",
-			"navtitle": "Deployment",
+			"label": "Deployment",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-712ecfc3-8daf-bbf8-0ec3-bba23c3fe1fa",
-			"navtitle": "System requirements",
+			"label": "System requirements",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-1506301e-724b-9baa-5af4-e686093a6a7c",
-			"navtitle": "Docker installation",
+			"label": "Docker installation",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-b78a22aa-d07e-0f62-acdd-b30616fe514f",
-			"navtitle": "Monitoring",
+			"label": "Monitoring",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-64ee33f0-d318-0a20-cb09-b35fe44f3e11",
-			"navtitle": "Troubleshooting",
+			"label": "Troubleshooting",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-0cce79b3-e77b-596b-5739-c3f12007deb0",
-			"navtitle": "Release notes",
+			"label": "Release notes",
+			"group": "dita",
 			"val": 12
 		},
 		{
 			"id": "id-61e89117-eaab-ac5f-c442-56193faf64c7",
-			"navtitle": "Migrate from a previous version",
+			"label": "Migrate from a previous version",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-435b1a7d-1af5-8dd2-4d36-627f7ec8c9b2",
-			"navtitle": "Known issues",
+			"label": "Known issues",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-eb0cd6dc-c4c0-dacf-33f7-142d0768cb5f",
-			"navtitle": "Connectors",
+			"label": "Connectors",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-089c401c-8f02-1000-b612-21333d47e61b",
-			"navtitle": "Product overview",
+			"label": "Product overview",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-da85caee-c9e8-bd4f-3f7f-3b8081b14ffe",
-			"navtitle": "Key features",
+			"label": "Key features",
+			"group": "dita",
 			"val": 6
 		},
 		{
 			"id": "id-99ad0246-8ec9-d696-774b-55b767315cf1",
-			"navtitle": "Technology",
+			"label": "Technology",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-bbaa7f94-8450-9452-2a02-af5ec1793919",
-			"navtitle": "Server requirements",
+			"label": "Server requirements",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-8dcfcc7d-2f08-07a0-2e2b-aea0cc50b321",
-			"navtitle": "Getting started",
+			"label": "Getting started",
+			"group": "dita",
 			"val": 14
 		},
 		{
 			"id": "id-b5096378-b3ea-34ff-81a4-30e5b0d56a0d",
-			"navtitle": "Preparing your editor",
+			"label": "Preparing your editor",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-16c88ecd-5c5e-c2ba-7399-c4fc37880d3f",
-			"navtitle": "Configuration guide",
+			"label": "Configuration guide",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-4e79b202-bdbe-3212-5db0-ebae60142db3",
-			"navtitle": "Connectors configuration",
+			"label": "Connectors configuration",
+			"group": "dita",
 			"val": 13
 		},
 		{
 			"id": "id-af0bd3fe-2af1-ddad-ede1-7552d82bfb9b",
-			"navtitle": "Set configuration keys",
+			"label": "Set configuration keys",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-2ca603ba-eabb-961e-e65e-181965cfc1f3",
-			"navtitle": "Configure the CMIS connector",
+			"label": "Configure the CMIS connector",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-00a5b2ac-5046-a72b-7a2d-696a5debab73",
-			"navtitle": "Connect to a CMIS server",
+			"label": "Connect to a CMIS server",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-f98d69a2-0ff5-2c67-750f-f9ccd104a7fe",
-			"navtitle": "Using the CMIS Launch API",
+			"label": "Using the CMIS Launch API",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-195cbca9-fe9a-7513-df76-25b69c78c87c",
-			"navtitle": "CMIS provider specific notes",
+			"label": "CMIS provider specific notes",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-3a1d7235-9569-19eb-5e04-bdceed9a783f",
-			"navtitle": "Retrieve the CMIS URL for your CMS",
+			"label": "Retrieve the CMIS URL for your CMS",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-bfed2fba-3922-f504-2776-94a6fddb34b6",
-			"navtitle": "Configure the WebDAV connector",
+			"label": "Configure the WebDAV connector",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-a44106d7-cc63-58a7-11a9-4ae204561291",
-			"navtitle": "Connect to a WebDAV server",
+			"label": "Connect to a WebDAV server",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-3988cd56-4cae-b09a-2e56-faf3cc83c556",
-			"navtitle": "Using the WebDAV Launch API",
+			"label": "Using the WebDAV Launch API",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-ed46a54b-ba22-da1c-a021-39a6a78932ab",
-			"navtitle": "WebDAV provider specific notes",
+			"label": "WebDAV provider specific notes",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-1fe1986d-40bd-bc1d-c8de-cd1540f3dae1",
-			"navtitle": "Retrieve the WebDAV URL for your CMS",
+			"label": "Retrieve the WebDAV URL for your CMS",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-fa7b2b6a-dbdf-6df8-4158-f88e12160ce8",
-			"navtitle": "Configure the Google Drive connector",
+			"label": "Configure the Google Drive connector",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-a14f2deb-a62a-75b5-ce25-0f049d60f3c6",
-			"navtitle": "Configure the Microsoft OneDrive connector",
+			"label": "Configure the Microsoft OneDrive connector",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-ba756d19-83f7-a4a7-d4f7-6b6956466f20",
-			"navtitle": "Configure logging",
+			"label": "Configure logging",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-9c1a6414-9ec7-0c1b-534c-0a4eb36f1d8d",
-			"navtitle": "Set the page title",
+			"label": "Set the page title",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-8e8e29a4-38c9-1d3f-dc65-2c35c4f2e5eb",
-			"navtitle": "Set the top bar title",
+			"label": "Set the top bar title",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-fbc49d39-92cf-16a5-4371-e24d394e89e9",
-			"navtitle": "Configure scaling",
+			"label": "Configure scaling",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-a00684f3-7815-4dc1-6494-1879a74e4bf9",
-			"navtitle": "Configure hosting",
+			"label": "Configure hosting",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-d23757c1-7d25-0907-f39c-12d514129971",
-			"navtitle": "Document processing configuration",
+			"label": "Document processing configuration",
+			"group": "dita",
 			"val": 9
 		},
 		{
 			"id": "id-2c4fd330-4d36-26af-9577-c23cb3ae8212",
-			"navtitle": "Set an item in the document processing configuration",
+			"label": "Set an item in the document processing configuration",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-77be040c-e8ff-a63a-254b-214614a26ac3",
-			"navtitle": "Document file extension and media type",
+			"label": "Document file extension and media type",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-7eb79d48-cd82-0fd6-9206-60d9899e750b",
-			"navtitle": "Document filename",
+			"label": "Document filename",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-db9a38e7-e37a-b765-6540-ec38f802a0d4",
-			"navtitle": "Path rewriting",
+			"label": "Path rewriting",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-cafb065a-542b-e89e-86f0-ee493630bd27",
-			"navtitle": "DITA example",
+			"label": "DITA example",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-c9c7eb7d-6974-0f2a-9632-cd1981e6adda",
-			"navtitle": "JATS example",
+			"label": "JATS example",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-7ebb70df-9783-6c1d-b92c-5f67383f90a0",
-			"navtitle": "Processing",
+			"label": "Processing",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-01bfd7a4-f1ac-cab1-8be7-c5aab0d5204c",
-			"navtitle": "Self-contained build configuration",
+			"label": "Self-contained build configuration",
+			"group": "dita",
 			"val": 5
 		},
 		{
 			"id": "id-ddcc6e94-6b61-c8e3-df24-c1e4ef4ac69e",
-			"navtitle": "Hosting and deployment",
+			"label": "Hosting and deployment",
+			"group": "dita",
 			"val": 3
 		},
 		{
 			"id": "id-391f5fa3-a090-1dde-70ce-3e82f1bcc1c8",
-			"navtitle": "Create a Docker image",
+			"label": "Create a Docker image",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-d566f5b7-563d-ddec-6ec1-618682b293f8",
-			"navtitle": "Push to an image registry",
+			"label": "Push to an image registry",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-c39b3057-14ee-6b46-28ef-b56effa953b3",
-			"navtitle": "Deployment guides",
+			"label": "Deployment guides",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-41fba983-a1dc-5dd2-bdac-c3954dd9c35a",
-			"navtitle": "Amazon Web Services",
+			"label": "Amazon Web Services",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-78a6effb-019e-7adc-7cb9-7c2c307f906d",
-			"navtitle": "Microsoft Azure",
+			"label": "Microsoft Azure",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-2eb88135-b934-5674-e7ed-2d77898b662a",
-			"navtitle": "On Premise",
+			"label": "On Premise",
+			"group": "dita",
 			"val": 4
 		},
 		{
 			"id": "id-67f5ba70-ce27-24d2-f5f4-9ab41c9d705f",
-			"navtitle": "Monitoring guide",
+			"label": "Monitoring guide",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-332cc493-deaa-5ebe-c625-e7006bcab346",
-			"navtitle": "Hosting your self-contained build",
+			"label": "Hosting your self-contained build",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-b3dd8d69-8202-11b6-e43d-dddd8d80ccb6",
-			"navtitle": "Release notes",
+			"label": "Release notes",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-d8269ae7-26ba-d977-13f6-b13138a1599b",
-			"navtitle": "Fonto Connectors 7.12.0",
+			"label": "Fonto Connectors 7.12.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-f4e34fa0-7fff-8a27-351a-176478aced1e",
-			"navtitle": "Fonto Connectors 7.11.1",
+			"label": "Fonto Connectors 7.11.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-c91e3c24-b814-f92e-2fbb-47d0021568b4",
-			"navtitle": "Fonto Connectors 7.11.0",
+			"label": "Fonto Connectors 7.11.0",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-7da71d1b-e7b3-6625-4cba-49e5d208cf19",
-			"navtitle": "Fonto Connectors 7.10.0",
+			"label": "Fonto Connectors 7.10.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-2dc26b58-ee10-26ca-91de-6872cc1aaf9a",
-			"navtitle": "Fonto Connectors 7.9.0",
+			"label": "Fonto Connectors 7.9.0",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-82fe2423-4d4e-1035-6895-e8e860ae5c95",
-			"navtitle": "Fonto Connectors 7.8.0",
+			"label": "Fonto Connectors 7.8.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-69f748a0-7f59-a291-7c86-efdafdd1bab0",
-			"navtitle": "Fonto Connectors 2.1.4",
+			"label": "Fonto Connectors 2.1.4",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-082c4ac2-3a07-e507-9e73-973f6b093d30",
-			"navtitle": "Fonto Connectors 2.1.3",
+			"label": "Fonto Connectors 2.1.3",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-3ed3ce2b-7231-1849-6d78-69b0511b04c1",
-			"navtitle": "Fonto Connectors 2.1.2",
+			"label": "Fonto Connectors 2.1.2",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-ff539d5c-bdb5-14f9-9f0e-7e88f50a38d3",
-			"navtitle": "Fonto Connectors 2.1.1",
+			"label": "Fonto Connectors 2.1.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-bb45eb5f-1710-1731-384e-1ca1f82d5376",
-			"navtitle": "Fonto Connectors 2.1.0",
+			"label": "Fonto Connectors 2.1.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d23a28f4-bdf3-8533-33f7-7729dc98a768",
-			"navtitle": "Fonto Connectors 2.0.1",
+			"label": "Fonto Connectors 2.0.1",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-d611299c-8a85-1803-be83-5329f2d5172d",
-			"navtitle": "Fonto Connectors 2.0.0",
+			"label": "Fonto Connectors 2.0.0",
+			"group": "dita",
 			"val": 2
 		},
 		{
 			"id": "id-d3096064-4cfd-03cc-297e-172d2946d22a",
-			"navtitle": "Fonto Connectors 1.3.0",
+			"label": "Fonto Connectors 1.3.0",
+			"group": "dita",
 			"val": 1
 		},
 		{
 			"id": "id-f9dafc42-3424-cb4c-244a-b7ec138bbd00",
-			"navtitle": "Fonto Connectors 1.2.0",
+			"label": "Fonto Connectors 1.2.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-7cc39f30-2a67-6da1-cce2-2a3648f8f470",
-			"navtitle": "Fonto Connectors 1.1.0",
+			"label": "Fonto Connectors 1.1.0",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-ecccd1b0-e53e-6377-bb8c-fac03a94fb8b",
-			"navtitle": "Fonto Connectors 1.0.2",
+			"label": "Fonto Connectors 1.0.2",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-92a26b2a-ae88-740d-b2f7-869785932070",
-			"navtitle": "Troubleshooting",
+			"label": "Troubleshooting",
+			"group": "dita",
 			"val": 0
 		},
 		{
 			"id": "id-9e35bee3-8e36-4a6f-9126-fc9e21056de7",
-			"navtitle": "API",
+			"label": "API",
+			"group": "dita",
 			"val": 0
 		}
 	],
@@ -2708,12 +3121,44 @@
 			"target": "id-76381d84-7f5f-4ad6-df40-cec98e60fa73"
 		},
 		{
+			"source": "id-f4071735-4403-4ad3-9f5d-946410248c16",
+			"target": "id-b9cc89c3-926f-42e9-6d92-f4b49fc879d3"
+		},
+		{
+			"source": "id-f4071735-4403-4ad3-9f5d-946410248c16",
+			"target": "id-1c802dd1-0d15-f4d9-100d-c4dd1386b1d6"
+		},
+		{
+			"source": "id-f4071735-4403-4ad3-9f5d-946410248c16",
+			"target": "id-69f5c4c9-feb5-bcca-25d4-0def5beae3eb"
+		},
+		{
 			"source": "id-5e9f3150-5ab0-0b59-e815-03e770d80d16",
 			"target": "id-1c802dd1-0d15-f4d9-100d-c4dd1386b1d6"
 		},
 		{
 			"source": "id-5e9f3150-5ab0-0b59-e815-03e770d80d16",
-			"target": "id-62ce747b-d6e0-5ef3-f212-c6545ca75046"
+			"target": "id-d97b4fd4-b4e8-44ec-b9f1-bc152b41147e"
+		},
+		{
+			"source": "id-d97b4fd4-b4e8-44ec-b9f1-bc152b41147e",
+			"target": "id-5e9f3150-5ab0-0b59-e815-03e770d80d16"
+		},
+		{
+			"source": "id-d97b4fd4-b4e8-44ec-b9f1-bc152b41147e",
+			"target": "id-1c802dd1-0d15-f4d9-100d-c4dd1386b1d6"
+		},
+		{
+			"source": "id-3877ce9e-dddd-46ba-e063-c4c07b518930",
+			"target": "id-f4071735-4403-4ad3-9f5d-946410248c16"
+		},
+		{
+			"source": "id-62ce747b-d6e0-5ef3-f212-c6545ca75046",
+			"target": "id-3877ce9e-dddd-46ba-e063-c4c07b518930"
+		},
+		{
+			"source": "id-62ce747b-d6e0-5ef3-f212-c6545ca75046",
+			"target": "id-d97b4fd4-b4e8-44ec-b9f1-bc152b41147e"
 		},
 		{
 			"source": "id-1c44ee97-d2e2-910f-9089-b7c481945af4",
@@ -2721,7 +3166,11 @@
 		},
 		{
 			"source": "id-1c44ee97-d2e2-910f-9089-b7c481945af4",
-			"target": "id-62ce747b-d6e0-5ef3-f212-c6545ca75046"
+			"target": "id-d97b4fd4-b4e8-44ec-b9f1-bc152b41147e"
+		},
+		{
+			"source": "id-1c44ee97-d2e2-910f-9089-b7c481945af4",
+			"target": "id-1c44ee97-d2e2-910f-9089-b7c481945af4"
 		},
 		{
 			"source": "id-2a2ed911-acfd-4f66-bd03-7b928fe7a228",
@@ -3404,8 +3853,16 @@
 			"target": "id-74465c44-bfa4-542e-f35b-3f39bf8c9853"
 		},
 		{
+			"source": "id-7cb5310f-0952-44f4-b173-8a44846970e5",
+			"target": "id-41794a4d-14cd-4c8b-c994-791203576317"
+		},
+		{
 			"source": "id-c5d382d6-49e4-5bc2-e09e-a9f0525a64e7",
 			"target": "id-41794a4d-14cd-4c8b-c994-791203576317"
+		},
+		{
+			"source": "id-3702e2a9-288c-ec33-5213-64cdb8c24c93",
+			"target": "id-5e8b8c7b-ea1e-e10d-0492-82f9bbe74d4f"
 		},
 		{
 			"source": "id-86c1bfb0-767d-70f5-ff86-2d96fa196e90",

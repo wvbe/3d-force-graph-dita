@@ -45,8 +45,7 @@ export const FAD_SECTIONS = {
 				//   and they are only shown if they are properly documented.
 				label: 'Imported operation data',
 				id: 'arguments',
-				test:
-					'ancestor-or-self::operation or ancestor-or-self::operation-step',
+				test: 'ancestor-or-self::operation or ancestor-or-self::operation-step',
 				traversal: './type[1]/members/*'
 			},
 			{
@@ -68,14 +67,12 @@ export const FAD_SECTIONS = {
 			{
 				label: 'Returns',
 				id: 'returns',
-				test:
-					'not(ancestor-or-self::operation or ancestor-or-self::operation-step)'
+				test: 'not(ancestor-or-self::operation or ancestor-or-self::operation-step)'
 			},
 			{
 				label: 'Exported operation data',
 				id: 'returns',
-				test:
-					'ancestor-or-self::operation or ancestor-or-self::operation-step',
+				test: 'ancestor-or-self::operation or ancestor-or-self::operation-step',
 				traversal: './type[1]/members/*'
 			}
 		]
@@ -100,8 +97,7 @@ export const FAD_SECTIONS = {
 				label: 'Properties',
 				id: 'properties',
 				test: 'child::*[not(./restrict/type/@base = "function")]',
-				traversal:
-					'./*[@sdk and not(./restrict/type/@base = "function")]'
+				traversal: './*[@sdk and not(./restrict/type/@base = "function")]'
 			}
 		]
 	},
@@ -150,7 +146,7 @@ const FAD_SECTIONS_FLAT_LIST = (function getFlattenedSectionTypeList(
 				(sectionType as SectionTypeWithVariants).variants
 			);
 			return flattenedSectionTypes.concat(
-				children.map((c) => ({
+				children.map(c => ({
 					...c,
 					test: `[${sectionType.test}]${c.test}`
 				}))
@@ -169,20 +165,17 @@ function getMatchingFadSectionsTypesForNode(
 	possibleSectionTypes: SectionType[]
 ): SectionTypeWithoutVariants[] {
 	return possibleSectionTypes
-		.filter((sectionType) => evaluateXPathToBoolean(sectionType.test, node))
+		.filter(sectionType => evaluateXPathToBoolean(sectionType.test, node))
 		.reduce(
 			(sectionTypes, sectionType) =>
 				(sectionType as SectionTypeWithVariants).variants
 					? sectionTypes.concat(
 							getMatchingFadSectionsTypesForNode(
 								node,
-								(sectionType as SectionTypeWithVariants)
-									.variants
+								(sectionType as SectionTypeWithVariants).variants
 							)
 					  )
-					: sectionTypes.concat([
-							sectionType as SectionTypeWithoutVariants
-					  ]),
+					: sectionTypes.concat([sectionType as SectionTypeWithoutVariants]),
 			[] as SectionTypeWithoutVariants[]
 		);
 }
@@ -195,7 +188,7 @@ export const QUERY_FAD_SECTIONS = `
 	description,
 	example,
 	user-facing,
-	${FAD_SECTIONS_LIST.map((sectionType) => `./*[${sectionType.test}]`).join(',')}
+	${FAD_SECTIONS_LIST.map(sectionType => `./*[${sectionType.test}]`).join(',')}
 `;
 
 function insertItemAtLevelRelativeToLast(
@@ -211,16 +204,8 @@ function insertItemAtLevelRelativeToLast(
 	// level > 1 = insert as descendant
 	// level < 1 = insert as sibling of ancestor
 	const levelDiff =
-		parseInt(
-			(sectionInfo.node as Element).getAttribute('level') || '0',
-			10
-		) -
-		parseInt(
-			(lastSectionInfo.node as Element | undefined)?.getAttribute(
-				'level'
-			) || '0',
-			10
-		);
+		parseInt((sectionInfo.node as Element).getAttribute('level') || '0', 10) -
+		parseInt((lastSectionInfo.node as Element | undefined)?.getAttribute('level') || '0', 10);
 	if (levelDiff < 1 && lastSectionInfo.parent) {
 		insertItemAtLevelRelativeToLast(lastSectionInfo.parent, sectionInfo);
 	} else if (levelDiff > 1 && lastSectionInfo.children.length > 0) {
@@ -249,19 +234,10 @@ function getFadTableOfContentsForReadme(document: Document): SectionInfo[] {
 	return root.children;
 }
 
-function getFadSectionInfo(
-	node: Node,
-	sectionType: SectionTypeWithoutVariants
-): SectionInfo {
+function getFadSectionInfo(node: Node, sectionType: SectionTypeWithoutVariants): SectionInfo {
 	return {
-		id:
-			typeof sectionType.id === 'string'
-				? sectionType.id
-				: sectionType.id(node),
-		label:
-			typeof sectionType.label === 'string'
-				? sectionType.label
-				: sectionType.label(node),
+		id: typeof sectionType.id === 'string' ? sectionType.id : sectionType.id(node),
+		label: typeof sectionType.label === 'string' ? sectionType.label : sectionType.label(node),
 
 		node: node as Node,
 
@@ -273,17 +249,16 @@ function getFadSectionInfo(
 }
 
 export function getMatchingFadSectionsForNode(node: Node): SectionInfo[] {
-	return getMatchingFadSectionsTypesForNode(
-		node,
-		FAD_SECTIONS_LIST
-	).map((sectionType) => getFadSectionInfo(node, sectionType));
+	return getMatchingFadSectionsTypesForNode(node, FAD_SECTIONS_LIST).map(sectionType =>
+		getFadSectionInfo(node, sectionType)
+	);
 }
 
 export function getFirstMatchingFadSectionForNode(
 	node: Node,
 	possibleSectionTypes: SectionType[] = FAD_SECTIONS_LIST
 ): SectionInfo {
-	const sectionType = possibleSectionTypes.find((sectionType) =>
+	const sectionType = possibleSectionTypes.find(sectionType =>
 		evaluateXPathToBoolean(sectionType.test, node)
 	);
 	if (sectionType && (sectionType as SectionTypeWithVariants).variants) {
@@ -305,7 +280,7 @@ export function getFadTableOfContents(document: Document): SectionInfo[] {
 		return getFadTableOfContentsForReadme(document);
 	}
 
-	return FAD_SECTIONS_FLAT_LIST.map((sectionType) => {
+	return FAD_SECTIONS_FLAT_LIST.map(sectionType => {
 		const node = evaluateXPathToFirstNode(
 			'./*' + sectionType.test,
 			document.documentElement

@@ -44,7 +44,12 @@ async function compileCrossReferenceData({ query, filterer }, cache, sitemap) {
 	for await (const { node, document } of nodes) {
 		data.nodes.push({
 			id: node.id,
-			navtitle: node.navtitle
+			label: node.navtitle,
+			group: evaluateXPathToBoolean('namespace-uri(/*) = $fadNsUri', document, null, {
+				fadNsUri
+			})
+				? 'fad'
+				: 'dita'
 		});
 		data.links.splice(
 			0,

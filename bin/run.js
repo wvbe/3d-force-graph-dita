@@ -19,9 +19,11 @@ const RUNNERS = [
 	['simpleDitamapGraphExpanded', require('./compile/simpleDitamapGraph').expanded],
 	['crossReferenceGraphAll', require('./compile/crossReferenceGraph').all],
 	['crossReferenceGraphDita', require('./compile/crossReferenceGraph').dita],
-	['crossReferenceGraphFad', require('./compile/crossReferenceGraph').fad]
+	['crossReferenceGraphFad', require('./compile/crossReferenceGraph').fad],
+	['keywordGraph', require('./compile/keywordGraph').keywords]
 ];
 console.log('>>> START <<<');
+console.log('Runners:');
 console.log(RUNNERS);
 
 (async initialXmlFilePath => {
@@ -45,7 +47,7 @@ console.log(RUNNERS);
 		console.log(`${data.nodes.length} nodes, ${data.links.length} links`);
 		console.groupEnd();
 	}, null);
-	console.error('>>> STOP <<<');
+	console.error('>>> FINISH <<<');
 })(path.join('docs', 'index.xml')).catch(error => {
 	console.error('>>> FATAL ERROR <<<');
 	console.error(error.stack);

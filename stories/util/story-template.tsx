@@ -15,9 +15,9 @@ const ForceGraph: FC<{ data: GraphData }> = ({ data }) => {
 		const force3dGraph = ForceGraph3D();
 		const Graph = force3dGraph(divElementRef.current)
 			.graphData(data)
-			.nodeLabel('navtitle')
-			.nodeAutoColorBy('depth')
-			.linkColor((new THREE.Color(0x000000) as unknown) as string)
+			.nodeLabel('label')
+			.nodeAutoColorBy('group')
+			// .linkColor((new THREE.Color(0x000000) as unknown) as string)
 			// .linkDirectionalArrowLength(3.5)
 			// .linkDirectionalArrowRelPos(1)
 			// .linkCurvature(0.25)
@@ -33,7 +33,7 @@ const ForceGraph: FC<{ data: GraphData }> = ({ data }) => {
 					3000 // ms transition duration
 				);
 			});
-		Graph.scene().background = new THREE.Color(0xffffff);
+		Graph.scene().background = new THREE.Color(0x202020);
 		// Graph.d3Force('charge';
 		return () => {
 			Graph.graphData({
